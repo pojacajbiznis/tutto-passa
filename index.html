@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutto Passa | Autentična Italijanska Kuhinja</title>
+    <meta name="description"
+        content="Uživajte u najboljim picama, sendvičima i fokaćama u gradu. Tutto Passa donosi duh Italije direktno do vas.">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="main-header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="tutto-passa-logo.avif" alt="Tutto Passa Logo">
+            </a>
+
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="#hero">Početna</a></li>
+                    <li><a href="#menu">Meni</a></li>
+                    <li><a href="#delivery">Dostava</a></li>
+                    <li><a href="#featured">Izdvojeno</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero fade-in" id="hero">
+        <div class="container">
+            <h1>Okusite tradiciju Italije</h1>
+            <p>Najfinije pice, sendviči i domaće fokaće spremljene po autentičnim receptima.</p>
+            <a href="#menu" class="btn btn-primary">Pogledaj Meni</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu fade-in" id="menu">
+        <div class="container">
+            <h2>Naša Ponuda</h2>
+
+            <div class="menu-filters">
+                <button class="filter-btn active" data-filter="all">Sve</button>
+                <button class="filter-btn" data-filter="pizze">Pizze</button>
+                <button class="filter-btn" data-filter="sendvici">Sendviči</button>
+                <button class="filter-btn" data-filter="kalcone">Kalcone i Fokaće</button>
+            </div>
+
+            <div class="menu-grid" id="menu-grid">
+                <!-- Pizze -->
+                <div class="menu-card" data-category="pizze">
+                    <div class="menu-img-wrapper">
+                        <img src="img/margarita.webp" alt="Margarita" class="menu-img" loading="lazy">
+                    </div>
+                    <div class="menu-content">
+                        <h3 class="menu-title">Margarita</h3>
+                        <p class="menu-desc">Pelat, mocarela, bosiljak, maslinovo ulje.</p>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="pizze">
+                    <div class="menu-img-wrapper">
+                        <img src="img/kapricoza.webp" alt="Kapricoza" class="menu-img" loading="lazy">
+                    </div>
+                    <div class="menu-content">
+                        <h3 class="menu-title">Kapricoza</h3>
+                        <p class="menu-desc">Pelat, sir, šunka, šampinjoni, masline.</p>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="pizze">
+                    <div class="menu-img-wrapper">
+                        <img src="img/prsuta.webp" alt="Pršuta" class="menu-img" loading="lazy">
+                    </div>
+                    <div class="menu-content">
+                        <h3 class="menu-title">Pršuta</h3>
+                        <p class="menu-desc">Pelat, sir, pršuta, rukola, čeri paradajz.</p>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="pizze">
+                    <div class="menu-img-wrapper">
+                        <img src="img/4-sira.webp" alt="4 sira" class="menu-img" loading="lazy">
+                    </div>
+                    <div class="menu-content">
+                        <h3 class="menu-title">4 sira</h3>
+                        <p class="menu-desc">Mocarela, gorgonzola, parmezan, emental.</p>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="pizze">
+                    <div class="menu-img-wrapper">
+                        <img src="img/diavola.webp" alt="Diavola" class="menu-img" loading="lazy">
+                    </div>
+                    <div class="menu-content">
+                        <h3 class="menu-title">Diavola</h3>
+                        <p class="menu-desc">Pelat, sir, pikantni kulen, ljuta papričica.</p>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="pizze">
+                    <div class="menu-img-wrapper">
+                        <img src="img/tutto-passa.webp" alt="Tutto Passa" class="menu-img" loading="lazy">
+                    </div>
+                    <div class="menu-content">
+                        <h3 class="menu-title">Tutto Passa</h3>
+                        <p class="menu-desc">Specijalitet kuće sa probranim italijanskim sastojcima.</p>
+                    </div>
+                </div>
+
+                <!-- Sendvici -->
+                <div class="menu-card" data-category="sendvici">
+                    <div class="menu-img-wrapper">
+                        <img src="img/mortadela-pistaci-sendvic.webp" alt="Mortadela pistaći sendvič" class="menu-img"
+                            loading="lazy">
+                    </div>
+                    <div class="menu-content">
+                        <h3 class="menu-title">Mortadela pistaći</h3>
+                        <p class="menu-desc">Domaća fokaća, mortadela, krem od pistaća, stracciatella.</p>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="sendvici">
+                    <div class="menu-img-wrapper">
+                        <img src="img/prsuta-sendvic.webp" alt="Pršuta sendvič" class="menu-img" loading="lazy">
+                    </div>
+                    <div class="menu-content">
+                        <h3 class="menu-title">Pršuta sendvič</h3>
+                        <p class="menu-desc">Pršuta, sir, paradajz, sveža zelena salata, namaz.</p>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="sendvici">
+                    <div class="menu-img-wrapper">
+                        <img src="img/diavolo-sendvic.webp" alt="Diavolo sendvič" class="menu-img" loading="lazy">
+                    </div>
+                    <div class="menu-content">
+                        <h3 class="menu-title">Diavolo sendvič</h3>
+                        <p class="menu-desc">Kulen, sir, ljuti namaz, jalapeno papričice.</p>
+                    </div>
+                </div>
+
+                <!-- Kalcone / Fokace -->
+                <div class="menu-card" data-category="kalcone">
+                    <div class="menu-img-wrapper">
+                        <img src="img/kalcona-cotto.webp" alt="Kalcona Cotto" class="menu-img" loading="lazy">
+                    </div>
+                    <div class="menu-content">
+                        <h3 class="menu-title">Kalcona Cotto</h3>
+                        <p class="menu-desc">Preklopljena pica sa šunkom, sirom i pečurkama.</p>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="kalcone">
+                    <div class="menu-img-wrapper">
+                        <img src="img/fokaca.webp" alt="Fokaća" class="menu-img" loading="lazy">
+                    </div>
+                    <div class="menu-content">
+                        <h3 class="menu-title">Klasik Fokaća</h3>
+                        <p class="menu-desc">Domaće testo sa maslinovim uljem, ruzmarinom i krupnom solju.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Delivery Section -->
+    <section class="delivery fade-in" id="delivery">
+        <div class="container">
+            <h2>Naručite Online</h2>
+            <p>Donosimo najbolje od Italije pravo na Vaša vrata.</p>
+            <div class="delivery-grid">
+                <a href="https://wolt.com/en/srb/nis/restaurant/tutto-passa" target="_blank"
+                    class="btn-delivery wolt-bg">
+                    <i class="fas fa-motorcycle"></i> Naruči na Wolt-u
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Section (Slider) -->
+    <section class="featured fade-in" id="featured">
+        <div class="container">
+            <h2>Izdvojeno iz peći</h2>
+            <div class="featured-grid">
+                <div class="featured-item">
+                    <div class="featured-card">
+                        <img src="img/auttuno.webp" alt="Pica Auttuno" class="featured-img">
+                        <div class="featured-content">
+                            <h3>Sezonska Pica Auttuno</h3>
+                            <p>Savršena jesenja kombinacija ukusa koju morate probati.</p>
+                            <a href="#menu" class="btn btn-primary">Vidi Više</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-item">
+                    <div class="featured-card">
+                        <img src="img/tikvica-cherry.webp" alt="Tikvica Cherry" class="featured-img">
+                        <div class="featured-content">
+                            <h3>Tikvica & Cherry</h3>
+                            <p>Lagana i osvežavajuća pica za ljubitelje povrća.</p>
+                            <a href="#menu" class="btn btn-primary">Istraži</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact fade-in" id="contact">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Gde se nalazimo</h2>
+                    <p style="margin-bottom: 3rem;">Posetite nas i osetite pravi ukus Italije u srcu Niša.</p>
+
+                    <div>
+                        <h3><i class="fas fa-map-marker-alt" style="margin-right: 15px;"></i> Lokacija</h3>
+                        <p>Sinđelićev trg 31, Niš 18000</p>
+                    </div>
+
+                    <div>
+                        <h3><i class="fas fa-phone" style="margin-right: 15px;"></i> Kontakt Telefon</h3>
+                        <p><a href="tel:0659366075" style="color: inherit; text-decoration: none;">065 9366075</a>
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3><i class="fas fa-clock" style="margin-right: 15px;"></i> Radno Vreme</h3>
+                        <p>Pon - Čet: 08:00 - 00:00<br>Pet - Sub: 08:00 - 01:00<br>Ned: 11:00 - 23:00</p>
+                    </div>
+                </div>
+
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2902.5!2d21.8995!3d43.3185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4755b17dcaecae8b%3A0x1f27785244a69393!2sTutto%20Passa%20Ni%C5%A1!5e0!3m2!1sen!2srs!4v1700000000000"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <a href="#" class="footer-logo">
+                        <img src="tutto-passa-logo.avif" alt="Tutto Passa Logo">
+                    </a>
+                    <p>Mesto gde se strast prema hrani spaja sa autentičnim italijanskim receptima. Svaki zalogaj je
+                        priča
+                        za sebe.</p>
+                    <div class="social-links" style="margin-top: 2rem;">
+                        <a href="https://www.instagram.com/tuttopassanis/?hl=en" target="_blank" class="social-icon"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3>Linkovi</h3>
+                    <ul class="footer-links">
+                        <li><a href="#hero">Početna</a></li>
+                        <li><a href="#menu">Meni</a></li>
+                        <li><a href="#featured">Izdvojeno</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Naručite</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://wolt.com/en/srb/nis/restaurant/tutto-passa" target="_blank">Wolt
+                                Dostava</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div
+                style="text-align: center; color: #555; font-size: 13px; border-top: 1px solid #222; padding-top: 3rem;">
+                &copy; 2026 Tutto Passa. Sva prava zadržana.<br>
+                <div style="margin-top: 10px; opacity: 0.8;">
+                    Napravio <a href="https://amplifybusiness.pro" target="_blank"
+                        style="color: inherit; text-decoration: none;">amplifybusiness.pro</a> <br>
+                    Instagram: <a href="https://www.instagram.com/pojacajbiznis" target="_blank"
+                        style="color: inherit; text-decoration: none;">instagram.com/pojacajbiznis</a>
+                </div><br>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Sticky Header
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('main-header');
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile Menu
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('nav-menu').querySelector('ul');
+
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            hamburger.querySelector('i').classList.toggle('fa-bars');
+            hamburger.querySelector('i').classList.toggle('fa-times');
+            document.getElementById('main-header').classList.toggle('menu-active');
+        });
+
+        // Close menu on link click
+        navMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                hamburger.querySelector('i').classList.add('fa-bars');
+                hamburger.querySelector('i').classList.remove('fa-times');
+                document.getElementById('main-header').classList.remove('menu-active');
+            });
+        });
+
+        // Filtering
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const menuItems = document.querySelectorAll('.menu-card[data-category]');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const filter = btn.dataset.filter;
+
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                menuItems.forEach(item => {
+                    if (filter === 'all' || item.dataset.category === filter) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+
+        // Animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('appear');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.fade-in').forEach(sec => observer.observe(sec));
+    </script>
+</body>
+
+</html>

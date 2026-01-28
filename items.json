@@ -1,0 +1,230 @@
+{
+    "item_0": {
+        "key": "margarita",
+        "name": "Margarita",
+        "img": "https://imageproxy.wolt.com/assets/67348d908ec5923531e785e1",
+        "desc": ""
+    },
+    "item_1": {
+        "key": "mortadela-pistaci",
+        "name": "Mortadela pistaći",
+        "img": "https://imageproxy.wolt.com/assets/6735e9e8a39c4d664071bdf2",
+        "desc": ""
+    },
+    "item_2": {
+        "key": "prsuta",
+        "name": "Pršuta",
+        "img": "https://imageproxy.wolt.com/assets/67348d758ec5923531e785df",
+        "desc": ""
+    },
+    "item_3": {
+        "key": "mortadela-pistaci-sendvic",
+        "name": "Mortadela pistaci sendvič",
+        "img": "https://imageproxy.wolt.com/assets/67348d7f8ec5923531e785e0",
+        "desc": ""
+    },
+    "item_4": {
+        "key": "kapricoza",
+        "name": "Kapricoza",
+        "img": "https://imageproxy.wolt.com/assets/67348d9b8ec5923531e785e2",
+        "desc": ""
+    },
+    "item_5": {
+        "key": "4-sira",
+        "name": "4 sira",
+        "img": "https://imageproxy.wolt.com/assets/67348e6ca8e20757c7dae797",
+        "desc": ""
+    },
+    "item_6": {
+        "key": "prsuta-sendvic",
+        "name": "Pršuta sendvič",
+        "img": "https://imageproxy.wolt.com/assets/67348d568ec5923531e785da",
+        "desc": ""
+    },
+    "item_7": {
+        "key": "kalcona-cotto",
+        "name": "Kalcona Cotto",
+        "img": "https://imageproxy.wolt.com/assets/67348e1f8ec5923531e78600",
+        "desc": ""
+    },
+    "item_8": {
+        "key": "diavola",
+        "name": "Diavola",
+        "img": "https://imageproxy.wolt.com/assets/67348e57a8e20757c7dae790",
+        "desc": ""
+    },
+    "item_9": {
+        "key": "fokaca",
+        "name": "Fokaća",
+        "img": "https://imageproxy.wolt.com/assets/6734b30063f4ea42736990a8",
+        "desc": ""
+    },
+    "item_10": {
+        "key": "prsuta-i-jaja",
+        "name": "Pršuta i jaja",
+        "img": "https://imageproxy.wolt.com/assets/67348e2d66b0360b8a4c01ef",
+        "desc": ""
+    },
+    "item_11": {
+        "key": "kalcona-diavola",
+        "name": "Kalcona Diavola",
+        "img": "https://imageproxy.wolt.com/assets/67348dd38ec5923531e785ea",
+        "desc": ""
+    },
+    "item_12": {
+        "key": "kapricoza",
+        "name": "Kapricoza",
+        "img": "https://imageproxy.wolt.com/assets/67348d9b8ec5923531e785e2",
+        "desc": ""
+    },
+    "item_13": {
+        "key": "diavola",
+        "name": "Diavola",
+        "img": "https://imageproxy.wolt.com/assets/67348e57a8e20757c7dae790",
+        "desc": ""
+    },
+    "item_14": {
+        "key": "diavola-i-jaja",
+        "name": "Diavola i jaja",
+        "img": "https://imageproxy.wolt.com/assets/67348e5d66b0360b8a4c01fc",
+        "desc": ""
+    },
+    "item_15": {
+        "key": "prsuta-i-jaja",
+        "name": "Pršuta i jaja",
+        "img": "https://imageproxy.wolt.com/assets/67348e2d66b0360b8a4c01ef",
+        "desc": ""
+    },
+    "item_16": {
+        "key": "marinara",
+        "name": "Marinara",
+        "img": "https://imageproxy.wolt.com/assets/67348d8466b0360b8a4c01dc",
+        "desc": ""
+    },
+    "item_17": {
+        "key": "margarita",
+        "name": "Margarita",
+        "img": "https://imageproxy.wolt.com/assets/67348d908ec5923531e785e1",
+        "desc": ""
+    },
+    "item_18": {
+        "key": "diavola",
+        "name": "Diavola",
+        "img": "https://imageproxy.wolt.com/assets/67348e57a8e20757c7dae790",
+        "desc": ""
+    },
+    "item_19": {
+        "key": "prsuta",
+        "name": "Pršuta",
+        "img": "https://imageproxy.wolt.com/assets/67348d758ec5923531e785df",
+        "desc": ""
+    },
+    "item_20": {
+        "key": "4-sira",
+        "name": "4 sira",
+        "img": "https://imageproxy.wolt.com/assets/67348e6ca8e20757c7dae797",
+        "desc": ""
+    },
+    "item_21": {
+        "key": "mortadela-pistaci",
+        "name": "Mortadela pistaći",
+        "img": "https://imageproxy.wolt.com/assets/6735e9e8a39c4d664071bdf2",
+        "desc": ""
+    },
+    "item_22": {
+        "key": "tikvica-cherry",
+        "name": "Tikvica cherry",
+        "img": "https://imageproxy.wolt.com/assets/67348d398ec5923531e785d6",
+        "desc": ""
+    },
+    "item_23": {
+        "key": "kapri",
+        "name": "Kapri",
+        "img": "https://imageproxy.wolt.com/assets/67348da48ec5923531e785e4",
+        "desc": ""
+    },
+    "item_24": {
+        "key": "kapricoza",
+        "name": "Kapricoza",
+        "img": "https://imageproxy.wolt.com/assets/67348d9b8ec5923531e785e2",
+        "desc": ""
+    },
+    "item_25": {
+        "key": "tutto-passa",
+        "name": "Tutto Passa",
+        "img": "https://imageproxy.wolt.com/assets/6735e9e8a39c4d664071bdf3",
+        "desc": ""
+    },
+    "item_26": {
+        "key": "tonno",
+        "name": "Tonno",
+        "img": "https://imageproxy.wolt.com/assets/67348d1d8ec5923531e785d0",
+        "desc": ""
+    },
+    "item_27": {
+        "key": "auttuno",
+        "name": "Auttuno",
+        "img": "https://imageproxy.wolt.com/assets/67348e718ec5923531e7860a",
+        "desc": ""
+    },
+    "item_28": {
+        "key": "fokaca",
+        "name": "Fokaća",
+        "img": "https://imageproxy.wolt.com/assets/6734b30063f4ea42736990a8",
+        "desc": ""
+    },
+    "item_29": {
+        "key": "kalcona-cotto",
+        "name": "Kalcona Cotto",
+        "img": "https://imageproxy.wolt.com/assets/67348e1f8ec5923531e78600",
+        "desc": ""
+    },
+    "item_30": {
+        "key": "kalcona-diavola",
+        "name": "Kalcona Diavola",
+        "img": "https://imageproxy.wolt.com/assets/67348dd38ec5923531e785ea",
+        "desc": ""
+    },
+    "item_31": {
+        "key": "diavolo-sendvic",
+        "name": "Diavolo sendvič",
+        "img": "https://imageproxy.wolt.com/assets/67348e4d8ec5923531e78608",
+        "desc": ""
+    },
+    "item_32": {
+        "key": "prsuta-sendvic",
+        "name": "Pršuta sendvič",
+        "img": "https://imageproxy.wolt.com/assets/67348d568ec5923531e785da",
+        "desc": ""
+    },
+    "item_33": {
+        "key": "kapri-sendvic",
+        "name": "Kapri sendvič",
+        "img": "https://imageproxy.wolt.com/assets/67348d68a8e20757c7dae749",
+        "desc": ""
+    },
+    "item_34": {
+        "key": "mortadela-pistaci-sendvic",
+        "name": "Mortadela pistaci sendvič",
+        "img": "https://imageproxy.wolt.com/assets/67348d7f8ec5923531e785e0",
+        "desc": ""
+    },
+    "item_35": {
+        "key": "tonno-sendvic",
+        "name": "Tonno sendvič",
+        "img": "https://imageproxy.wolt.com/assets/67348d298ec5923531e785d1",
+        "desc": ""
+    },
+    "item_36": {
+        "key": "coca-cola-0,33l",
+        "name": "Coca Cola 0,33l",
+        "img": "https://imageproxy.wolt.com/assets/67348ec266b0360b8a4c020b",
+        "desc": ""
+    },
+    "item_37": {
+        "key": "coca-cola-zero-0,33l",
+        "name": "Coca Cola zero 0,33l",
+        "img": "https://imageproxy.wolt.com/assets/67348ed28ec5923531e7862a",
+        "desc": ""
+    }
+}
